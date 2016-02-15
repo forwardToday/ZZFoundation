@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ZZFoundation_Example', :exclusive => true do
+  pod 'ZZFoundation', :path => '../'
+end
+
+target 'ZZFoundation_Tests', :exclusive => true do
+  pod 'ZZFoundation', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
