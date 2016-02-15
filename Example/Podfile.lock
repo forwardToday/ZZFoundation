@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - ZZFoundation (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZZFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  ZZFoundation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  ZZFoundation: 28ae1529f5ede738f801243684d657329d7c8bc1
+
+COCOAPODS: 0.38.2
